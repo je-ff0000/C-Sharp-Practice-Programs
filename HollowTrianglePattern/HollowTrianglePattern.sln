@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.35731.53
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HollowTrianglePattern", "HollowTrianglePattern\HollowTrianglePattern.csproj", "{B806BC40-0B8C-4196-A1E2-47D846B0E70B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B806BC40-0B8C-4196-A1E2-47D846B0E70B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B806BC40-0B8C-4196-A1E2-47D846B0E70B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B806BC40-0B8C-4196-A1E2-47D846B0E70B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B806BC40-0B8C-4196-A1E2-47D846B0E70B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6207C245-C3E6-48DE-AE5E-FCBD6AA4A155}
+	EndGlobalSection
+EndGlobal
