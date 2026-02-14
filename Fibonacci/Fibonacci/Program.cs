@@ -19,8 +19,8 @@ namespace Fibonacci
             Console.Write("{0} {1} ", n1, n2);
             for(int i = 2; i <= n; i++) 
             {
-                temp = n2;
                 Console.Write("{0} ", n1 + n2);
+                temp = n2;
                 n2 += n1;
                 n1 = temp;
             }
