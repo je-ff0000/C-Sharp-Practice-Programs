@@ -10,6 +10,15 @@ namespace StarPattern2
     {
         static void Main(string[] args)
         {
+            /*
+             *
+             **
+             ***
+             ****
+             ***
+             **
+             *
+             */ 
             int n, stars;
             Console.WriteLine("Enter a limit: ");
             n = Convert.ToInt32(Console.ReadLine());
