@@ -8,7 +8,7 @@ namespace PrimeNumUptoN
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             int start, end, cnt;
 
@@ -22,9 +22,24 @@ namespace PrimeNumUptoN
             for (int i = start; i <= end; i++)
             {   cnt = 0;
 
-                for(int j = 2; j <= Math.Sqrt(i); j++)
+                if(i <= 1)
                 {
-                    if (i % j == 0)
+                    continue;
+                }
+
+                if( i == 2 || i == 3)
+                {
+                    Console.Write(" {0}", i);
+                }
+
+                if(i % 2 == 0 || i % 3 == 0)
+                {
+                    continue;
+                }
+                for(int j = 5; j <= Math.Sqrt(i); j += 6)
+                {
+
+                    if (i % j == 0 || i % (j + 2) == 0)
                     {
                         cnt++;
                         break;
