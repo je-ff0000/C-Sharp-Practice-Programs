@@ -19,10 +19,6 @@ namespace Multi_User_Reg_Login
 
         public int Fn_NonQuery(string sqlquery)
         {
-            if (con.State == ConnectionState.Open)
-            {
-                con.Close();
-            }
             cmd = new SqlCommand(sqlquery, con);
             con.Open();
             int i = cmd.ExecuteNonQuery();
@@ -32,10 +28,6 @@ namespace Multi_User_Reg_Login
 
         public string Fn_Scalar(string sqlquery)
         {
-            if (con.State == ConnectionState.Open)
-            {
-                con.Close();
-            }
             cmd = new SqlCommand(sqlquery, con);
             con.Open();
             string i = cmd.ExecuteScalar().ToString();
